@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Quiz</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+  </head>
+  <body>
+    <div id="quizContainer" class="container-fluid">
+      <div class="row justify-content-center">
+        <div class="center">
+        <div class="span6" style="float: none; margin: 0 auto;">
+          <div class="title">Computer Quiz</div>
+          <div class="question" class="question"></div>
+          <label class="option"><input type="radio" name="option" value="1" /> <span id="opt1"></span></label>
+          <label class="option"><input type="radio" name="option" value="2" /> <span id="opt1"></span></label>
+          <label class="option"><input type="radio" name="option" value="3" /> <span id="opt1"></span></label>
+          <label class="option"><input type="radio" name="option" value="4" /> <span id="opt1"></span></label>
+          <button id="nextButton" class="next-btn" onclick="loadNextQuestion();">Next Question</button>
+        </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="assets/javascript/appquestions.js"></script>
+    <script src="assets/javascript/app.js"></script>
+  </body>
+</html>
